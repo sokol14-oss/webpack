@@ -1,5 +1,5 @@
-import "domain.js";
-class Game {
+import Character from "./domain";
+export default class Game {
     start() {
       console.log('game started');
     }
@@ -12,6 +12,4 @@ export function readGameSaving() {
 
 export function writeGameSaving() {
 }
-const defaultGame = new Game();
-export default defaultGame;
 
